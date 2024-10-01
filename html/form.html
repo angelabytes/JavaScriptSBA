@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ghibbys</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="site-wrapper">
+            <nav class="navbar">
+                <div class="icon"><a href="/html/form.html" class="active"><i class="fa-solid fa-user fa-xl" style="color: rgb(125, 216, 198);"></i></a></div>
+                <div class="icon"><a href="/html/index.html" class="active"><i class="fa-solid fa-house fa-xl" style="color: rgb(181, 230, 173);"></i></a></div>
+                <div class="icon"><a href="/html/movie-list.html" class="active"><i class="fa-solid fa-film fa-xl" style="color: rgb(244, 179, 180);"></i></a></div>
+                <div class="icon"><a href="#" class="active"><i class="fa-solid fa-search fa-xl" style="color: rgb(246, 219, 172);"></i></a></div>
+                <div class="icon"><a href="/html/characters.html"><img class="mononoke-icon" 
+                    src="/images/transparent-studio-ghibli-japanese-animation-hayao-miyazaki-mi-minimalist-person-in-blue-and-white-clothing661cc2d02662c8.09773967.png" 
+                    alt=""height="42px" width="42px"></a></div>
+            </nav>
+            <div class="container">      
+                <div class="signup-wrapper">
+
+                    <form id="signup-form">
+                        <h1>Sign up</h1>
+                        <div class="socials">
+                            <div id="instagram">
+                                <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram fa-2xl" style="color: #7dd8c6"></i></a>
+                            </div>
+                            <div id="line">
+                                <a href="https://gm.lineapplication.me/oauth2/v2.1/qrcode/1"><i class="fa-brands fa-line fa-2xl" style="color: #b5e6ad;"></i></a>
+                            </div>
+                            <div id="discord">
+                                <a href="https://discord.com/login"><i class="fa-brands fa-discord fa-2xl" style="color: #f4b3b4;"></i></i></a>
+                            </div>
+                        </div>
+                        <div class="inputs">
+                            <input type="text" 
+                                    id="user"
+                                    name="user"
+                                    placeholder="Username"
+                            >
+                            <div class="error-message" id="userError">Please enter a valid username</div>
+
+
+                            <input type="email" 
+                                    id="email" 
+                                    name = "email"
+                                    placeholder="Email"
+                            >
+                            <div class="error-message" id="emailError">Please enter a valid email address</div>
+                            
+                            <input type="password"
+                                    name="password" 
+                                    id="password" 
+                                    placeholder="Password"
+                                   
+                            >
+                           <div class="error-message" id="passwordError">Password must be at least 8 characters long and 
+                            contain at least an uppercase, a lowercase and one number.
+                           </div>
+
+                            <a href="#">Forgot your password?</a>
+                            <button class="button" type="submit">Sign up</button>
+                        </div>
+                    </form>
+                </div>
+    
+                <div class="login-wrapper">     
+                    <form>
+                        <h1>Login</h1>
+                        <div class="socials">
+                            <div id="instagram">
+                                <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram fa-2xl" style="color: #7dd8c6"></i></a>
+                            </div>
+                            <div id="line">
+                                <a href="https://gm.lineapplication.me/oauth2/v2.1/qrcode/1"><i class="fa-brands fa-line fa-2xl" style="color: #b5e6ad;"></i></a>
+                            </div>
+                            <div id="discord">
+                                <a href="https://discord.com/login"><i class="fa-brands fa-discord fa-2xl" style="color: #f4b3b4;"></i></a>
+                            </div>
+                        </div>
+                        <div class="inputs">
+                            <label for="login-type">Choose a way to login</label>
+                            <select id="login-type">
+                                <option value="">Select an option: </option>
+                                <option value="text">Username</option>
+                                <option value="email">Email</option>
+                            </select>
+                            <input type="text" id="username" placeholder="Username">
+                            <input type="email" id="email-add" placeholder="Email" style="display: none;">
+                            <input type="password" class="password" placeholder="Password">
+                            <a href="#">Forgot your password?</a>
+                            <button class="button" class="overlay-button">Login</button>
+                        </div>    
+                    </form>
+                </div>
+    
+                 
+                <div class="overlay">
+                    <div class="overlay-left">
+                        <h1>Hello again!</h1>
+                            <span>
+                                <a href="https://emoji.gg/emoji/9022-catkiki"><img src="https://cdn3.emoji.gg/emojis/9022-catkiki.gif" width="54px" height="54px" alt="CatKiki"></a>
+                            </span>
+                        <p>Sign in to save your favorites and/or discover suggestions!</p>   
+                        <button class="button overlay-button" id="login">Login</button>
+                    </div>
+    
+                    <div class="overlay-right">
+                        <h1>Don't be a <br>No-Face</h1>
+                        <span>
+                            <a href="https://emoji.gg/emoji/4080-nofacewalk"><img src="https://cdn3.emoji.gg/emojis/4080-nofacewalk.gif" width="54px" height="54px" alt="NoFaceWalk"></a>
+                        </span>
+                        <p>Sign up here and join the community!</p><br><br>
+                        <button class="button overlay-button" id="sign-up">Sign up</button>
+                    </div>
+                     
+                </div>
+    
+            </div>
+        </div>
+    
+        <script src="/javascript/form.js"></script>
+    </body>
+</html>

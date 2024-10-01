@@ -1,0 +1,19 @@
+{
+    "movies": [
+        {
+            "title": "Spirited Away",
+            "poster": "/images/spirited_away_poster.png",
+            "year": 2001
+        },
+        { 
+            "title": "Princess Mononoke",
+            "poster": "/images/princess_mononoke_poster.png",
+            "year": 1997
+        },
+        {  
+            "title": "My Neighbor Totoro",
+            "poster": "/images/my_neighbor_totoro_poster.png",
+            "year": 1988
+        }
+    ]
+}
