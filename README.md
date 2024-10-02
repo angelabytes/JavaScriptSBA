@@ -1,6 +1,6 @@
 # Ghibbys
 
-Simple overview of use/purpose.
+Very basic site at them momemnt. Will create a MVP site later with new design. 
 
 ## Description
 
