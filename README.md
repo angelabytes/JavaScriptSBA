@@ -11,7 +11,7 @@ by movies and a page with movie cards. Uses some glassmorphism in the design and
 
 ### Dependencies
 
-Not currently deployed so, use live server. Stack includes: JavaScript, HTML5 and CSS.
+Not currently deployed, so it uses live server. Stack includes: JavaScript, HTML5 and CSS.
 
 
 ## Authors
