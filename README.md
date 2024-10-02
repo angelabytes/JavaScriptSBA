@@ -5,7 +5,7 @@ Very basic site at them moment. Will create a MVP site later with new design.
 ## Description
 
 A basic mock up of a site that targets fans of Studio Ghibli. The website currently has a home page, sliding login and sign up page, a character table that lists characters 
-by movies and a page with movie cards.
+by movies and a page with movie cards. Uses some glassmorphism in the design and bento grid.
 
 ## Getting Started
 
