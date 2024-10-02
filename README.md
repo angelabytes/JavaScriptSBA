@@ -1,6 +1,6 @@
 # Ghibbys
 
-Very basic site at them momemnt. Will create a MVP site later with new design. 
+Very basic site at them moment. Will create a MVP site later with new design. 
 
 ## Description
 
